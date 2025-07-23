@@ -44,7 +44,7 @@ mysqli_close($conn);
     <form action="" method="POST">
         <div class="mb-3">
             <label for="title" class="form-label">Title:</label>
-            <input type="text" name="title" class="form-control" value="<?php echo htmlspecialchars($delicacy['title']); ?>" required>
+            <input type="text" name="title" class="form-control" value="<?php echo htmlspecialchars($delicacy['title']); ?>">
         </div>
         <div class="mb-3">
             <label for="ingredients" class="form-label">Ingredients:</label>
